@@ -92,11 +92,9 @@ glItemImage_imageRelative = 7
 
 --Dx Functions
 local dxDrawImage = dxDrawImage
-local dgsDrawText = dgsDrawText
 local dxSetRenderTarget = dxSetRenderTarget
 local dxGetTextWidth = dxGetTextWidth
 local dxSetBlendMode = dxSetBlendMode
-local dgsCreateRenderTarget = dgsCreateRenderTarget
 --DGS Functions
 local dgsSetType = dgsSetType
 local dgsGetType = dgsGetType
@@ -108,6 +106,8 @@ local dgsAttachToTranslation = dgsAttachToTranslation
 local dgsAttachToAutoDestroy = dgsAttachToAutoDestroy
 local calculateGuiPositionSize = calculateGuiPositionSize
 local dgsCreateTextureFromStyle = dgsCreateTextureFromStyle
+local dgsDrawText = dgsDrawText
+local dgsCreateRenderTarget = dgsCreateRenderTarget
 --Utilities
 local dgsTriggerEvent = dgsTriggerEvent
 local createElement = createElement
